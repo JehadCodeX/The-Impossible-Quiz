@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The impossible Quiz</title>
+</head>
+<body>
+    <h3>Whow is the GOAT?</h3>
+    <button onclick="LIE()" style="background-color:darkcyan; color: aqua; border-radius: 15px; font-size: 20px;">JehadCode</button>
+    <button onclick="TRUTH()" style="background-color: darkcyan; color: aqua; border-radius: 15px; font-size: 20px;">MR.GOAT</button>
+    <p id="result"></p>
+    <script>
+        function TRUTH(){
+            document.getElementById("result").innerHTML = "Correct, But what is the answer if I replace GOAT with G.O.A.T?"
+        }
+        function LIE(){
+            document.getElementById("result").innerHTML = "Wrong!, What do you mean that JehadCode is 'the GOAT'? read the Q again you failure!"
+        }
+    </script>
+</body>
+</html>
